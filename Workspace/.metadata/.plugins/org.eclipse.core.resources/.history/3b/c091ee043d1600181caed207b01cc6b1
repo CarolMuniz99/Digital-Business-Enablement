@@ -1,0 +1,12 @@
+package com.fiap.loja.TerminalConsulta;
+
+import javax.swing.JOptionPane;
+
+public class TerminalConsulta {
+
+	public static void main(String[] args) {
+		
+		int codigo = Integer.parseInt(JOptionPane.showInputDialog("Digite o código do produto:"));
+	}
+
+}

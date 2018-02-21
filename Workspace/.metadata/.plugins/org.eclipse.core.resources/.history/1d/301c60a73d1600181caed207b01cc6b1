@@ -1,0 +1,22 @@
+package com.fiap.loja.TerminalConsulta;
+
+import java.util.Calendar;
+
+import javax.swing.JOptionPane;
+
+public class TerminalConsulta {
+
+	public static void main(String[] args) {
+		
+		int codigo = Integer.parseInt(JOptionPane.showInputDialog("Digite o código do produto:"));
+		Calendar dataAtual  = Calendar.getInstance();
+		
+		if (codigo == 401) {
+			JOptionPane.showMessageDialog(null, "Descrição: Camiseta Masculina Manga Curta Branca \n"
+					+ "Data atual: " + dataAtual);
+		} else {
+
+		}
+	}
+
+}
